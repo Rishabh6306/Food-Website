@@ -12,14 +12,16 @@ function Navbar() {
        </span>
 
        <ul className="md:flex md:items-center">
-        <li className="mx-4"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Home</a></li>
-        <li className="mx-4"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Services</a></li>
-        <li className="mx-4"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">About</a></li>
-        <li className="mx-4"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Contact</a></li>
-        <li className="mx-4"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Blog</a></li>
+        <li className="mx-4 my-6 md:my-0"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Home</a></li>
+        <li className="mx-4 my-6 md:my-0"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Services</a></li>
+        <li className="mx-4 my-6 md:my-0"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">About</a></li>
+        <li className="mx-4 my-6 md:my-0"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Contact</a></li>
+        <li className="mx-4 my-6 md:my-0"><a href="#" className="text-2xl hover:text-cyan-500 duration-500">Blog</a></li>
        </ul>
 
-      
+       <button className="bg-cyan-500 hover:bg-cyan-40 text-white py-2 px-6 mx-4 font-[Poppins] duration-500 rounded-md" >
+        Get Started
+       </button>
       </nav>
     </header>
   )
